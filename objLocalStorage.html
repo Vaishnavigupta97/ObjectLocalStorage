@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        form{
+            background-color: orange;
+            text-align: center;
+        }
+        input{
+            font-size: 25px;
+            color: green;
+            width: 1000px;
+            padding-left: 20px;
+        }
+        span{
+            font-size: 35px;
+            color: brown;
+            font-weight: 900;
+        }
+    </style>
+</head>
+<body>
+    <form action="#" id="myForm">
+        <span>Name</span><br/><br/>
+        <input id="name" name="userName" placeholder="write name" required/><br/><br/>
+        <span>Email</span><br/><br/>
+        <input id="email" name="userEmail" placeholder="write email" required/><br/><br/>
+        <span>Phone Number</span><br/><br/>
+        <input id="number" name="userNumber" placeholder="write Phone Number" required/><br/><br/>
+        <input type="submit" id="submit" /><br/><br/>
+    </form>
+    <ul id="unOrderList"></ul>
+    <script src="objLocalStorage.js"></script>
+</body>
+</html>
