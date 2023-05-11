@@ -37,4 +37,5 @@ function deleteFunc(){
    deleteBtn.parentElement.remove();
    localStorage.removeItem(addobj);
 }
+console.log("mnk");
 }
