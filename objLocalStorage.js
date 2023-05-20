@@ -21,6 +21,15 @@ let obj = {
     email, 
     number
 }
+
+
+axios.post("https://crudcrud.com/api/c2414d27ea1c482e90ace163a806f983/appointmentData", obj)
+.then((respone) => {
+    console.log(respone);
+}).catch((error) => {
+    console.log(error);
+})
+
 // console.log(obj.name);
 allObj.push(obj);
 localStorage.setItem(obj.email, JSON.stringify(allObj));
@@ -55,4 +64,3 @@ function clickEditFunc(){
     myForm.number.style.color = "black";
 }
 }
-// name.value = "abc";
